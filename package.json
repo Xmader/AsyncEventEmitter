@@ -1,0 +1,23 @@
+{
+    "name": "@xmader/async-event-emitter",
+    "version": "1.0.0",
+    "main": "dist/async-event-emitter.js",
+    "module": "src/async-event-emitter.ts",
+    "devDependencies": {
+        "typescript": "^3.6.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Xmader/AsyncEventEmitter.git"
+    },
+    "author": "Xmader",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Xmader/AsyncEventEmitter/issues"
+    },
+    "homepage": "https://github.com/Xmader/AsyncEventEmitter#readme"
+}
