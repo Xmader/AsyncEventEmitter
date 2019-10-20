@@ -123,7 +123,7 @@ export class AsyncEventEmitter<Events extends BaseEvents> implements AsyncEventE
     async emitAndGetReturnValue<E extends keyof Events>(event: E, ...args: ArgumentsOf<Events[E]>) {
         const returnValues = await this.emitAndGetAllReturnValues(event, ...args)
         for (const x of returnValues) {
-            if (x) {
+            if (typeof x !== "undefined") {
                 return x
             }
         }

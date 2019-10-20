@@ -1,6 +1,6 @@
 {
     "name": "@xmader/async-event-emitter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/async-event-emitter.js",
     "module": "src/async-event-emitter.ts",
     "devDependencies": {
